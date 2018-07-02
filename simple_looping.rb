@@ -21,7 +21,7 @@ def times_iterator(number_of_times)
   # code your solution here using the "times" keyword
   phrase = "Welcome to Flatiron School's Web Development Course!"
   times = 1..number_of_times
-  for x in times
+  for times_phrase_spoken in times
     puts phrase
   end
 end
