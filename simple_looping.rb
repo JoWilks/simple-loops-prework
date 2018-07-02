@@ -20,7 +20,10 @@ end
 def times_iterator(number_of_times)
   # code your solution here using the "times" keyword
   phrase = "Welcome to Flatiron School's Web Development Course!"
-  
+  times = 0..number_of_times
+  for phrase in times
+    puts phrase
+  end
 end
 
 def while_iterator(number_of_times)
